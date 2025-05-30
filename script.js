@@ -51,7 +51,7 @@ const getWeather = () => {
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     if (city === "") {
-        toast('Please fill all the fields', 'red', 'white', 'bold', '50px', '50px');
+        toast('Please fill the fields', 'red', 'white', 'bold', '50px', '50px');
         return;
     }
 
