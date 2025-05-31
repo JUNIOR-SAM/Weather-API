@@ -13,9 +13,9 @@ const toast = (message, bgColor, color, fontWeight, marginTop, borderRadius) => 
         // destination: "https://github.com/apvarun/toastify-js",
         newWindow: true,
         close: false,
-        gravity: "top", // `top` or `bottom`
-        position: "center", // `left`, `center` or `right`
-        stopOnFocus: true, // Prevents dismissing of toast on hover
+        gravity: "top", 
+        position: "center",
+        stopOnFocus: true, 
         style: {
             background: bgColor,
             color,
@@ -23,15 +23,10 @@ const toast = (message, bgColor, color, fontWeight, marginTop, borderRadius) => 
             marginTop,
             borderRadius,
         },
-        onClick: function () { } // Callback after click
+        onClick: function () { } 
     }).showToast();
 }
 
-// setTimeout(() => {
-//     console.log(lati, longi);
-//     console.log(url);
-//     endpoint = url;
-// }, 2000);
 
 const apiKey = "491d866c9ea0fbdb86147016d5a83c28";
 
